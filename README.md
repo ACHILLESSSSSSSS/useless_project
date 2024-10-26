@@ -174,12 +174,14 @@ The HTML file includes sections for weather data, temperature, city name, and a 
 ## Screenshots
 
 1. **Current Weather Display**  
-   ![Screenshot1](Add screenshot 1 here)  
+   ![Screenshot1](Add screenshot 1 here)  ![Uploading Screenshot (1).png…]()
+
    *Shows the current weather details such as temperature and condition.*
 
 2. **Dynamic Video Based on Weather**  
    ![Screenshot2](Add screenshot 2 here)  
-   *Displays the video change when weather conditions change.*
+   *Displays the video change when weather conditions 
+hange.*
 
 3. **Location Access**  
    ![Screenshot3](Add screenshot 3 here)  
