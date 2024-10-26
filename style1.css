@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #87ceeb; /* Sky blue background */
+}
+
+#weather-video {
+  position: fixed; /* Fixed to cover the whole screen */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Use viewport width */
+  height: 100vh; /* Use viewport height */
+  object-fit: cover; /* Cover the entire area */
+  z-index: -1; /* Send video to the back */
+}
+
+#weatherContainer {
+  position: relative; /* For stacking context */
+  z-index: 1; /* Bring content above the video */
+  text-align: center;
+  color: #fff;
+  padding: 20px; /* Add some padding */
+  backdrop-filter: blur(5px); /* Optional: adds a blur effect to the background */
+  border-radius: 10px; /* Optional: rounded corners */
+}
